@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: build 
         run: | 
-          git chackout Lab1 
+          git checkout Lab1 
           cd Res/ 
           make test
           ./test
