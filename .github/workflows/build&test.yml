@@ -12,8 +12,6 @@ jobs:
     steps:
       - name: build
         run: |
-         .git/HEAD
-         git checkout Lab1
          cd Res/
          make test
          ./test
