@@ -1,0 +1,22 @@
+name: build-&-test
+ 
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: build 
+        run: | 
+          git chackout Lab1 
+          cd Res/ 
+          make test
+          ./test
+          
