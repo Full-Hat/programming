@@ -127,14 +127,23 @@ int main()
     keyHole = createKeyHole(yH, xH, 0);
     printf("Enter key size: ");
     scanf("%d%d", &xK, &yK);
+    while(xK > xH || yK > yH)
+    {
+        printf("Hole must be larger than key, try enter key size again: ");
+        scanf("%d%d", &xK, &yK);
+    }
     key = createKeyHole(yK, xK, 1);
     
-    keyHole[3][3] = 1;
-    keyHole[2][2] = 1;
-    keyHole[2][1] = 1;
-    key[2][1] = 0;
-    key[2][2] = 0;
-    key[1][0] = 0;
+    if(xH >= 4 && yH >= 4)
+    {
+        printf("\nProgram will use standart key and key hole\n");
+        keyHole[3][3] = 1;
+        keyHole[2][2] = 1;
+        keyHole[2][1] = 1;
+        key[2][1] = 0;
+        key[2][2] = 0;
+        key[1][0] = 0;
+    }
 
     printf("\nKey hole: \n");
     printKeyHole(keyHole, yH, xH);
