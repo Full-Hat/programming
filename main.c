@@ -141,6 +141,11 @@ void readHole(int*** hole, int *xOut, int *yOut, char fileName[50])
     char buff[50];
 
     fin  = fopen(fileName, "r");
+    if(fin == NULL)
+    { 
+        printf("\nCan't find file %s..\n", fileName);
+        exit(0);
+    }
 
     fscanf(fin, "%d%d", &x, &y);
     (*hole) = createKeyHole(x, y, 0);
