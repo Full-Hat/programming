@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include "analyzer.h" 
 
-#include "calculator.h"
-
+#ifndef TEST
 int main()
 {
-    printf("Hello world!");
+    readFile("test.txt");
 
-    checkExpr("1+2/3");
+    return 0;
 }
+#endif

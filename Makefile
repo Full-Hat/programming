@@ -1,5 +1,5 @@
-all: main.c 
-	gcc -o task1 main.c 
+all: main.c stringStack.c stackStack.c
+	gcc -o analyzer main.c stringStack.c stackStack.c -std=c89
 
-test: test.c calculator.c
-	gcc -o test_tas1 test.c calculator.c
+test: test.c stringStack.c stackStack.c
+	gcc -o test test.c stringStack.c stackStack.c -std=c89 
