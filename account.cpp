@@ -26,12 +26,7 @@ Account& operator+=(Account &acc, int sum)
 {
     acc.m_balance += sum;
     return acc;
-}
-
-bool operator==(const Account &acc1, const Account &acc2)
-{
-    return acc1.m_name == acc2.m_name;
-}
+} 
 
 bool operator==(const Account &acc1, const std::string &name)
 {
