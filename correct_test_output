@@ -1,0 +1,177 @@
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 Login
+#2 Create account
+Your choose: 
+To create account you must enter new acc inf
+Name: Password: Successfully added! :D 
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 Login
+#2 Create account
+Your choose: 
+To login add account inf (to exit write "0")
+Name: Password: Logged! :D 
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 View balance
+#2 Change name
+#3 Change password
+#4 Make transaction
+#5 View transaction history
+#6 Delete account
+Your choose: 
+Your current balance: 10
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 View balance
+#2 Change name
+#3 Change password
+#4 Make transaction
+#5 View transaction history
+#6 Delete account
+Your choose: 
+Enter new name: Account with this name is also exist, try another: Name changed! :D 
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 View balance
+#2 Change name
+#3 Change password
+#4 Make transaction
+#5 View transaction history
+#6 Delete account
+Your choose: 
+Enter new password: 
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 View balance
+#2 Change name
+#3 Change password
+#4 Make transaction
+#5 View transaction history
+#6 Delete account
+Your choose: 
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 Login
+#2 Create account
+Your choose: 
+To create account you must enter new acc inf
+Name: Password: Account with this name is also exist, try another: Successfully added! :D 
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 Login
+#2 Create account
+Your choose: 
+To login add account inf (to exit write "0")
+Name: Password: Logged! :D 
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 View balance
+#2 Change name
+#3 Change password
+#4 Make transaction
+#5 View transaction history
+#6 Delete account
+Your choose: 
+Enter the name of target account to send money: There is no such accounts, try another name: Enter the transaction value: Not enougth money to make transaction..
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 View balance
+#2 Change name
+#3 Change password
+#4 Make transaction
+#5 View transaction history
+#6 Delete account
+Your choose: 
+Enter the name of target account to send money: There is no such accounts, try another name: Enter the transaction value: 
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 View balance
+#2 Change name
+#3 Change password
+#4 Make transaction
+#5 View transaction history
+#6 Delete account
+Your choose: 
+Transaction history: 
+#1: 
+	From: NewName2
+	To: NewName3
+	Sum: 10
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 View balance
+#2 Change name
+#3 Change password
+#4 Make transaction
+#5 View transaction history
+#6 Delete account
+Your choose: 
+Removed! :D 
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 Login
+#2 Create account
+Your choose: 
+To login add account inf (to exit write "0")
+Name: Password: Logged! :D 
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 View balance
+#2 Change name
+#3 Change password
+#4 Make transaction
+#5 View transaction history
+#6 Delete account
+Your choose: 
+Transaction history: 
+#1: 
+	From: NewName2
+	To: NewName3
+	Sum: 10
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 View balance
+#2 Change name
+#3 Change password
+#4 Make transaction
+#5 View transaction history
+#6 Delete account
+Your choose: 
+
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 Login
+#2 Create account
+Your choose: 
+Thanks for using our program!
