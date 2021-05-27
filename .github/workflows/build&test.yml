@@ -15,4 +15,4 @@ jobs:
       - name: test
         run: |
           make test
-          ./task1_test
+          ./lab7_test < test_input > test_output
