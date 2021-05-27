@@ -12,7 +12,6 @@ int main()
     stdout = out;
 
     startApp("test");
-    remove("test");
     fclose(out);
     fclose(in);
 
@@ -35,6 +34,7 @@ int main()
     AccountSet accs;
     std::ifstream fin("test");
     accs.load(fin);
+    remove("test");
 
     return 0;
 }
