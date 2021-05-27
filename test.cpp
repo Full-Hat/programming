@@ -33,7 +33,7 @@ int main()
     }
     
     AccountSet accs;
-    std::ifstream fin(dataFileName);
+    std::ifstream fin("test");
     accs.load(fin);
 
     return 0;
