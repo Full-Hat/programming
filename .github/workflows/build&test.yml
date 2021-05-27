@@ -16,3 +16,5 @@ jobs:
         run: |
           make test
           ./lab7_test < test_input > test_output
+          CODECOV_TOKEN='c93bcfc7-ae03-44e7-85eb-66d4de48f0f6'
+          bash <(curl -s https://codecov.io/bash)
