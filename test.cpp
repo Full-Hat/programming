@@ -31,6 +31,10 @@ int main()
     {
         throw "Files not the same :: wrong program logic";
     }
+    
+    AccountSet accs;
+    std::ifstream fin(dataFileName);
+    accs.load(fin);
 
     return 0;
 }
