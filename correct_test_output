@@ -15,6 +15,14 @@ Name: Password: Successfully added! :D
 #2 Create account
 Your choose: 
 To login add account inf (to exit write "0")
+Name: 
+
+~~~~~~~~~~ menu ~~~~~~~~~~
+#0 Exit
+#1 Login
+#2 Create account
+Your choose: 
+To login add account inf (to exit write "0")
 Name: Password: Logged! :D 
 
 
